@@ -68,11 +68,11 @@
 		Évaluation Statistique : Utilisation de la Matrice de Confusion, du Rapport de Classification (Précision/Rappel) et de la Courbe d'apprentissage.
 
 	f. Les datasets utilisés 
-		Source : "SMS Spam Collection" disponible sur Kaggle.
+		Source : "Multilingual Spam Data" disponible sur Kaggle. Url : https://www.kaggle.com/uciml/sms-spam-collection-dataset
 
 		Composition : Un ensemble de plus de 5 000 messages textuels étiquetés comme "ham" (légitime) ou "spam".
 
-		Adaptation : Bien que le dataset source soit majoritairement en anglais, nous avons adapté le processus pour traiter la langue française en intégrant 		des dictionnaires de mots vides français et en préparant le modèle à identifier des structures de phrases propres aux spams francophones.
+		Adaptation : Bien que le dataset source soit multilangue, nous avons travaill2 sur la colonne "text_fr" et adapté le processus pour traiter la langue française en intégrant des dictionnaires de mots vides français et en préparant le modèle à identifier des structures de phrases propres aux spams francophones.
 
 		Répartition : 80% des données pour l'entraînement (Train Set) et 20% pour l'évaluation finale (Test Set).
 
